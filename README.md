@@ -1,15 +1,15 @@
-# vscode-twoslash-queries
+# vscode-twoslash-queries Read Me(JP)
 
-A tiny (75LOC) extension for VS Code that lets you use `// ^?` inside your editor to inline highlight types. Re-uses the existing TypeScript tooling infra in `*.ts`, `*.tsx`, `*.js`, and `*.jsx` files, simply adding inline info.
+VS Codeのための小さな(75LOC)拡張機能で、エディタ内でv// ^?` を使ってタイプをインラインでハイライトすることができる。既存のTypeScriptツールのインフラを`*.ts`、`*.tsx`、`*.js`、`*.jsx`ファイルに再利用し、インライン情報を追加するだけである。
 
-Useful for keyboard warriors or folks working on complex types and want to see how changes propagate throughout other types.
+キーボード戦士や、複雑な型に取り組んでいて、変更が他の型にどのように反映されるかを確認したい場合に便利です。
 
-**Ensure that inlay hints are enabled in your VS Code settings.**
+**VS Code の設定で、インレイ ヒントが有効になっていることを確認してください。**
 
 ## Features
 
-You write `// ^?` anywhere in a source file (with whitespace before, between and middle being whatever) all that matters is the alignment of the `^`.
+ソースファイルのどこにでも `// ^?` を書くことができます (空白は前でも間でも真ん中でもかまいません)。
 
-You can see here it in use a few times:
+ここで、何度か使っているところをご覧ください。
 
 <img src="./vscode-twoslash.png" />
